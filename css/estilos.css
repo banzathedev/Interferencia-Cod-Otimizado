@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: 'Neon';
+    src: url('../font/Neon.ttf');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.linha:after {
+    content: "";
+    clear: both;
+    display: block;
+      font-family: 'Neon ';
+}
+
+[class*="col-"] {
+    float: left;
+    padding 15px;
+
+}
+
+
+.logo{float:left;
+  padding-top: 20px;
+  margin-bottom: 40px;
+padding-left: 100px;
+padding-right: 80px;
+padding-bottom:5px;
+overflow: hidden;
+}
+
+
+
+
+#menu{
+  padding-top: 40px;
+  margin-block-start:200px;
+    margin-top:20px;
+    height:60px;
+    display:block;
+}
+
+ul{padding-top: 30px;
+
+  padding-right: 50px;}
+
+li{
+    display:inline-block;
+    padding:18px 40px;
+
+}
+
+a{
+    font-size:30px;
+    font-family: 'Neon';
+    text-decoration: none;
+    color:#FFDCE4;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 560px)
+[class*='col-'] {
+    width: 100%;
+    a{font-size:29px; }
+    
+}
+
+}
