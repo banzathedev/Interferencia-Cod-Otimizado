@@ -1,0 +1,43 @@
+body {
+    background-image: url("../imagens/sunsetbc.jpg");
+  background-attachment:fixed;
+ background-size: cover;
+background-repeat:no-repeat;}
+
+.fundo{width:1100px; margin:0 auto;
+background-color:rgb(0,5,12, 0.9);
+color: #FFDCE4;
+overflow:hidden;
+text-align:center;
+margin-top:300px;
+animation: trans 0.75s;
+padding-left:20px;
+padding-right: 20px;
+
+}
+.estilose{float:left;
+width: 50%;
+padding: 10px;
+}
+
+
+
+h1{font-family:'Neon 80s Regular';
+font-size:35px;
+padding-top:25px;
+padding-bottom:25px;
+text-align:center;
+color:#FFDCE4;
+}
+
+h3{font-family:'Neon 80s Regular';
+font-size:30px;
+color:#FFDCE4;
+padding-bottom: 20px;}
+
+
+p{font-family:'Neon 80s Regular';
+color:#FFDCE4;
+Font-size:18px;
+padding-bottom:20px;
+}
