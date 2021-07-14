@@ -1,0 +1,50 @@
+body {
+    background-image: url("../imagens/EUBC.jpg");
+  background-attachment:fixed;
+ background-size: cover;
+background-repeat:no-repeat;}
+
+.fundo{width:1200px; margin:0 auto;
+background-color:rgb(0,5,12, 0.8);
+color: #FFDCE4;
+overflow: hidden;
+text-align:center;
+margin-top:300px;
+animation: trans 0.75s;
+}
+
+.column {
+float: left;
+width: 33.3%;
+margin-bottom: 16px;
+padding: 0 8px;
+}
+
+
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+.cabeca{border-radius: 50%;}
+
+p{font-family:'Neon';
+font-size:25px;
+color:#FFDCE4;
+padding: 20px;
+}
+.EULA{font-family:'Neon';
+font-size:20px;
+color:#FFDCE4;
+padding: 20px;
+text-align:justify;
+}
+
+h1{font-family:'Neon';
+font-size:35px;
+color:#FFDCE4;
+padding-top:25px;
+padding-bottom:20px;}
+
+h2{font-family:'Neon';
+padding:25px;}
